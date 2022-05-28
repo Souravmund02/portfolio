@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" /> -->
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <style>
+        .work p { 
+            padding: 2rem;
+            font-family: cursive;
+            color: black;
+        }
+
+        .topdetails p {
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+
+        .edu p {
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+
+        .edu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0.5rem;
+        }
+
+        .topdetails {
+            display: flex;
+            padding: 0.5rem;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .address {
+            width: 300px;
+        }
+
+        .designbox {
+            margin-top: 0.5rem;
+            border: 3px solid blue;
+            padding: 2rem;
+            border-radius: 7px;
+        }
+    </style>
+    <title>Portfolio website complete</title>
+</head>
+
+<body>
+    
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Sourav Mund</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">HOME</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">ABOUT</a></li>
+                    <li class="nav__item"><a href="#details" class="nav__link">DETAILS</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">SKILLS</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">PROJECTS</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">EXPERIANCE</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Hi,<br />I'am <span class="home__title-color">Sourav Mund</span><br />Python Programmer
+                </h1>
+
+                <a href="mailto:souravmund02@gmail.com" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/souravmund/" class="home__social-icon"><i
+                        class="bx bxl-linkedin"></i></a>
+
+                <a href="https://github.com/Souravmund02" class="home__social-icon">
+                    <i class="bx bxl-github"></i>
+                </a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/perfil 2.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">ABOUT</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="" />
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Sourav Mund</h2>
+                    <p class="about__text">
+
+                        I am currently pursuing my bachelor's degree at GIET University in the domain of Computer
+                        Science and
+                        engineering.
+                        I have a passion for computer programming and information technology.
+                        This passion has given me the ability to develop programs for a multitude of things, programming
+                        languages,
+                        and databases.
+                        My other love is I am open to learning new things and getting involved with new projects that
+                        can help me
+                        learn or apply all that I have learned throughout my career.
+
+
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--===== DETAILS =====-->
+
+        <section class="details section" id="details">
+            <h2 class="section-title">DETAILS</h2>
+
+            <div class="block_container">
+                <div style="border: none;"class="namedetails  designbox">
+                    <!-- <h2 style="color:rgb(13, 4, 116);" , class="details__subtitle"> -->
+                        
+                    <h1>PERSONAL DETAILS<h1>
+                    </h2>
+                    <p class="">
+                        <b> NAME: </b> Sourav Mund <br>
+                        <b> FATHER'S NAME: </b> Ashis Kumar Mund <br>
+                        <b> FATHER'S NAME: </b> Sasmita Mund <br>
+                        <b> GENDER: </b> Male <br>
+                        <b> DATE OF BIRTH </b> 20.12.2002 <br>
+                    </p>
+                    <!-- <hr style="width: 100%;text-align:left;margin: left 100%;"> -->
+                </div>
+                <!-- <div class="topdetails"> -->
+
+                    <div style="border: none;" class="address designbox">
+                        <!-- <h2 style="color:rgb(13, 4, 116);" , class="details__subtitle"> -->
+                        <h1>ADDRESS</h1>
+                        </h2>
+                        <p class="details__text">
+
+                            <b>District</b>
+                        <p style="font-family:TTimes New Roman;">Kalahandi</p> <br>
+                        <b>City</b>
+                        <p>Dharamgarh</p> <br><b>Counrty</b>
+                        <p>India</p>
+                        </p>
+                        <!-- <hr style="width: 100%;text-align:left;margin: left 100%;"> -->
+                    </div>
+                <!-- </div> -->
+
+            </div>
+
+            <!-- Detels 2 -->
+
+            <br><br>
+            <center>
+                <h2 class="section-title">
+                    <ul>EDUCATIONAL QUALIFICATION</ul>
+                </h2>
+            </center>
+            <br><br>
+
+         <div class="block_container edu_block">
+             <div style="border: none;" class="designbox edu_box">
+                <h2>B.Tech</h2>
+                <p> 
+                Currently i am pursuing bachelor in technology degree
+                  <br>
+                  in the domain of computer science and engineering at<br>
+                  Gandhi Institute of Engineering and Technology University.<br>
+                  Year of passing: 2020 - 2024</p>
+              <br>
+             </div>
+             <div style="border: none;" class="designbox edu_box">
+                <h2 class="text-primary">HIGHER SECONDARY</h2>
+                <p>I have completed my higher secondary from
+                  <br>Pragati Science Higher Secondary School, <br>Bhawnipatna- Kalahandi<br>
+                  Year of passout: 2018 - 2020
+              </p>
+              <br>
+             </div>
+             <div style="border: none;" class="designbox edu_box">
+               
+                    <img class="icon" src="./icons/usd.svg" alt="" />
+                    <h2>INTERMEDIATE</h2>
+                    <p>I have completed my intermediate from
+                      <br>Saraswati Shishu Vidya Mandir, <br>Dharamgarh- Kalahandi<br>
+                      Year of passout: 2018
+                  </p>
+            
+
+         </div>
+
+
+            
+
+
+
+          
+
+
+                <p class="details__text">
+
+
+
+
+
+            </div>
+            <br>
+
+            <!-- </p> -->
+            <style>
+                b {
+                    letter-spacing: .25px;
+                    line-height: 0px;
+                }
+            </style>
+            <style>
+                h2 {
+                    line-height: 50px;
+                }
+            </style>
+
+
+        </section>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">SKILLS</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Techinical Skills</h2>
+                    <p class="skills__text">
+                        I have a passion for computer programming and information technology. This passion has given me
+                        the ability to develop programs for a multitude of things, programming languages, and databases.
+                    </p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+
+
+                            <i class='bx bxl-python  skills__icon'></i>
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgb(13, 85, 209)"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg> -->
+                            <span class="skills__name">PYTHON</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+
+                            <i class='bx bxl-postgresql skills__icon'></i>
+                            <span class="skills__name">SQL</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxs-paint skills__icon"></i>
+                            <span class="skills__name">MS OFFICIES</span>
+                        </div>
+                        <div class="skills__bar skills__ux"></div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-c-plus-plus  skills__icon'></i>
+
+                            <span class="skills__name">C</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div>
+                    <img src="assets/img/skills.jpg" alt="" class="skills__img" />
+                </div>
+            </div>
+            <div class="more_skill">
+                <h2>Personal Skills</h2>
+                <div class="more_skill_child">
+                    <ul>
+                        <li>Good Time Management skill.</li>
+                        <li>Problems solving abilities.</li>
+                        <li>Good communication skills.</li>
+                        <li>Leadership skills.</li>
+                        <li>Good teamwork.</li>
+                    </ul>
+                </div>
+                <h2>Extra Curricular Skill</h2>
+                <div class="more_skill_child">
+                    <ul>    
+                        <li>Graphic Designer</li>
+                        <li>PDCS Member</li>
+                        <li>Active Member in TCP</li>
+                        <li>Active Member in Gkart</li>
+                        <li>Volunteer at National Service Scheme (NSS)</li>
+                        <li>Volunteer at Rashtriya Swayamsevak Sangh (RSS)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">PROJECTS</h2>
+ 
+            <div class="work__container bd-grid">
+                <a  class="work__img">
+                    <img src="assets/img/work1.jpg" alt="" />
+                    <p>STUDENT RESULT MANAGEMENT SYSTEM USING HTML, CSS ,JAVASCRIPT</p>
+                </a>
+                <a  class="work__img">
+                    <img src="assets/img/work2.jpg" alt="" />
+                    <p> HOTEL MANAGEMENT SYSTEM USING JAVA , MYSQL</p>
+                </a>
+                <a  class="work__img">
+                    <img src="assets/img/work3.jpg" alt="" />
+                    <p>TIC TAC TOE GAME USING PYTHON</p>
+                </a>
+                <a  class="work__img">
+                    <img src="assets/img/work4.jpg" alt="" />
+                    <p>SNACK GAME USING PYTHON</p>
+                </a>
+                <a  class="work__img">
+                    <img src="assets/img/work5.jpg" alt="" />
+                    <p>FACE MASK DETECTION USING ARTIFICIAL INTELLIGENCE USING
+                        COMPUTER VISION AND DEEP LEARNING</p>
+                </a>
+                <a  class="work__img">
+                    <img src="assets/img/work6.jpg" alt="" />
+                    <p>COVID 19 ANALYSIS USING MACHINE LEARNING</p>
+                </a>
+            </div>
+        </section>
+
+        <!--===== EXPERIANCE =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">EXPERIANCE</h2>
+
+            <div class="ex_main">
+                <!-- ????? -->
+                <div class="ex_child">
+                    <h2>INTERNSHIP</h2>
+                        <ul>
+                            <li><b>INTERN AT REMARK SKILL ASSOCIATED WITH MICROSOFT</b><br>
+                                 
+                            </li>
+
+                            <li>
+                                <b>INTERN AT LETSGROWMORE</b>
+                                
+                            </li>
+                            <li>
+                                <b>INTERN AT LAGOZON EDUTECH PRIVATE LIMITED</b>
+                                
+                            </li>
+                        </ul>
+                </div>
+                <div class="ex_child">
+                    <h2>CERTIFICATION</h2>
+                    <ul>
+                        <li>
+                            Completed Python 101 for data Science
+                            - From <b>IBM</b>
+                        </li>
+                        <li>
+                            Completed Artificial Intelligence 
+                            - From <b>ACCENTURE </b>
+                        </li>
+                        <li>
+                            Python Skills Certification Test
+                            - From <b>HackerRank </b>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Uppp -->
+    <div class="up_move">
+        <a href="#" class="footer__icon">
+            <box-icon type='solid' name='caret-up-circle'></box-icon>
+        </a>
+    </div>
+
+    <i class='bx bxs-like bx-fade-up '></i>
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Sourav Mund</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/prince.mund.5" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/i_m_sourav20/?igshid=YmMyMTA2M2Y=" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+            <a href="https://twitter.com/SouravMund12?t=HrbNiH_-LswAEKaYEjHfXw&s=09" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+        </div>
+        <p class="footer__copy">&#169; All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
